@@ -25,3 +25,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('infoforIUG/', views.index, name='index')
 ]
+# test

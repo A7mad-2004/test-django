@@ -20,6 +20,7 @@ def index(request):
         'emill' :emill  ,                
         'birthDate':birthDate 
     }
+    # test
       
     return render(request, 'info.html', context)
 # Create your views here.
